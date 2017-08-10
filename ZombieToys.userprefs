@@ -1,0 +1,13 @@
+﻿<Properties StartupConfiguration="{FAD1BCF0-28DF-2DCE-690B-E9786492A0AE}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Attacks/LightningBolt.cs">
+    <Files>
+      <File FileName="Assets/Scripts/Attacks/LightningBolt.cs" Line="65" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>
