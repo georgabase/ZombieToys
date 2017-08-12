@@ -6,7 +6,8 @@ public class Ally : MonoBehaviour
 {
 	public float Duration;							//How long the ally stays spawned
 
-	[SerializeField] UnityEngine.AI.NavMeshAgent navMeshAgent;		//A reference to the ally's navmesh agent
+	[SerializeField] UnityEngine.AI.NavMeshAgent navMeshAgent;      //A reference to the ally's navmesh agent
+	[SerializeField] Animator animator;                                 //Reference to the animator component
 
 	void Reset()
 	{
@@ -18,5 +19,7 @@ public class Ally : MonoBehaviour
 	{
 		//Tell the navmesh agent to move to the designated point
 		navMeshAgent.SetDestination(point);
+		animator.SetBool("IsWalking", true);
+
 	}
 }
